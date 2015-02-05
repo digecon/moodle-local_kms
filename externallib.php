@@ -17,8 +17,10 @@ class local_kms_external extends external_api {
 	public static function update_profile_picture_parameters() 
 	{
 		return new external_function_parameters(
-			array('email' => new external_value(PARAM_EMAIL, 'User`s email')),
-			array('picture' => new external_value(PARAM_FILE, 'New user`s picture'))
+			array(
+				'email' => new external_value(PARAM_EMAIL, 'User`s email'),
+				'picture' => new external_value(PARAM_FILE, 'New user`s picture')				
+			)
 		);		
 	}
 	
