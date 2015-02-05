@@ -1,4 +1,7 @@
-# Plugin for moodle LMS to create backward link to Knowlege management system
+# Plugin for integration between LMS and KMS 
+
+- Backward link to Knowlege management system
+- Web service function for changind user`s profile piture
 
 ## Installation
 
